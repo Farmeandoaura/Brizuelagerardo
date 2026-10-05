@@ -1,0 +1,558 @@
+/* ==========================================
+
+   CONFIGURACIÓN GENERAL Y PALETA DE COLORES
+
+   ========================================== */
+
+{
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+body {
+
+    /* Fondo principal: Rosa pastel suave */
+
+    background-color: #fce4ec;
+
+    color: #4a4a4a; /* Texto gris oscuro para mejor lectura */
+
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    line-height: 1.6;
+
+    padding: 20px;
+
+}
+
+
+
+/* ==========================================
+
+   ENCABEZADOS Y TIPOGRAFÍA
+
+   ========================================== */
+
+h1 {
+
+    /* Púrpura/Lila pastel */
+
+    color: #6c5ce7;
+
+    font-size: 36px;
+
+    text-align: center;
+
+    font-family: 'Fredoka', 'Quicksand', sans-serif, Arial;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+h2 {
+
+    /* Verde menta / Lavanda según la sección */
+
+    color: #554185;
+
+    font-size: 26px;
+
+    text-align: center;
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+h3 {
+
+    /* Rosa viejo/Coral pastel */
+
+    color: #d63031;
+
+    font-size: 20px;
+
+    text-align: center;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+/* Clases especiales de texto */
+
+.destacado {
+
+    /* Coral pastel en lugar de rojo puro */
+
+    color: #e84393;
+
+    font-weight: 600;
+
+}
+
+
+
+.title {
+
+    /* Azul celeste pastel */
+
+    color: #0984e3;
+
+    font-weight: bold;
+
+}
+
+
+
+.importante {
+
+    color: #2d3436;
+
+    font-weight: bold;
+
+    /* Menta pastel suave */
+
+    background-color: #55efc4;
+
+    padding: 4px 8px;
+
+    border-radius: 6px;
+
+}
+
+
+
+/* ==========================================
+
+   SECCIONES Y TARJETAS
+
+   ========================================== */
+
+main {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+}
+
+
+
+/* Estilos de caja/tarjeta blanca suave para dar orden */
+
+section, aside {
+
+    background-color: #ffffff;
+
+    border-radius: 16px;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Sombra sutil */
+
+}
+
+
+
+/* Personalización de secciones en pastel */
+
+#inicio {
+
+    /* Amarillo/Crema pastel suave */
+
+    background-color: #fff9e6;
+
+    border-left: 6px solid #ffeaa7;
+
+}
+
+
+
+#sobre-mi {
+
+    /* Menta / Verde agua pastel */
+
+    background-color: #e8f8f5;
+
+    color: #2c3e50;
+
+    border-left: 6px solid #a3e4d7;
+
+}
+
+
+
+#diseños {
+
+    /* Lavanda pastel */
+
+    background-color: #f3ebd9;
+
+    background-color: #f4ecf7;
+
+    border-left: 6px solid #d2b4de;
+
+}
+
+
+
+.promo-dtf {
+
+    /* Melocotón / Salmón pastel */
+
+    background-color: #fbeee6;
+
+    border: 2px dashed #edbb99;
+
+}
+
+
+
+#contacto {
+
+    /* Celeste pastel */
+
+    background-color: #ebf5fb;
+
+    border-left: 6px solid #aed6f1;
+
+}
+
+
+
+/* ==========================================
+
+   TABLA, FORMULARIOS Y BOTONES
+
+   ========================================== */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin: 20px 0;
+
+    background-color: #ffffff;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+
+
+th {
+
+    background-color: #a29bfe; /* Lila pastel */
+
+    color: white;
+
+    padding: 12px;
+
+}
+
+
+
+td {
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #f1f2f6;
+
+}
+
+
+
+/* Estilo para los campos del formulario */
+
+input, textarea {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #dfe6e9;
+
+    border-radius: 8px;
+
+    background-color: #fbfbfb;
+
+}
+
+
+
+button {
+
+    background-color: #ff7675; /* Coral pastel */
+
+    color: white;
+
+    padding: 12px 24px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: background-color 0.30s ease;
+
+    display: block;
+
+    margin: 0 auto;
+
+}
+
+
+
+button:hover {
+
+    background-color: #e84393; /* Rosa más intenso al pasar el cursor */
+
+}
+
+
+
+/* Navegación */
+
+nav ul {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+    margin-top: 15px;
+
+    margin-bottom: 25px;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+nav a {
+
+    text-decoration: none;
+
+    color: #6c5ce7;
+
+    font-weight: bold;
+
+    background-color: #ffffff;
+
+    padding: 8px 16px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+
+}
+
+
+
+nav a:hover {
+
+    background-color: #ffeaa7;
+
+}
+
+.oculta { display: none;}
+
+
+
+/* ==========================================
+
+   TARJETA Y ELEMENTOS CIRCULARES (Ejercicios 2 y 4)
+
+   ========================================== */
+
+.card {
+
+    background-color: #ffffff;
+
+    max-width: 320px;
+
+    padding: 20px;
+
+    margin: 15px auto;
+
+    border: 2px solid #ffeaa7;
+
+    border-radius: 16px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    text-align: center;
+
+}
+
+
+
+.imagen-circular {
+
+    width: 140px;
+
+    height: 140px;
+
+    border-radius: 50%; /* Transforma la imagen en un círculo */
+
+    object-fit: cover;
+
+    border: 4px solid #a29bfe; /* Borde lila pastel */
+
+    margin-bottom: 12px;
+
+}
+
+
+
+.btn-card {
+
+    display: inline-block;
+
+    background-color: #6c5ce7;
+
+    color: white;
+
+    padding: 10px 18px;
+
+    margin-top: 10px;
+
+    border-radius: 20px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: background-color 0.3s ease;
+
+}
+
+
+
+.btn-card:hover {
+
+    background-color: #a29bfe;
+
+}
+
+
+
+/* ==========================================
+
+   GALERÍA EN LÍNEA (FLEXBOX)
+
+   ========================================== */
+
+.contenedor-galeria {
+
+    display: flex;             /* Alinea las tarjetas en una fila */
+
+    justify-content: center;   /* Centra las tarjetas */
+
+    gap: 20px;                 /* Espacio entre cada tarjeta */
+
+    flex-wrap: wrap;           /* Si no caben en celulares, pasa abajo */
+
+    margin-top: 20px;
+
+}
+
+
+
+.card-producto {
+
+    background-color: #ffffff;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    width: 250px;              /* Ancho fijo para cada tarjeta */
+
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+    border: 1px solid #f1f2f6;
+
+    transition: transform 0.2s ease;
+
+}
+
+
+
+.card-producto:hover {
+
+    transform: translateY(-5px); /* Eleva suavemente la tarjeta al pasar el cursor */
+
+}
+
+
+
+.img-producto {
+
+    width: 100%;
+
+    height: 180px;
+
+    object-fit: cover;         /* Recorta suavemente para que todas mantengan la misma altura */
+
+    border-radius: 8px;
+
+    margin-bottom: 10px;
+
+    }
+
+
+
+    /* Centrado de video */
+
+.video-contenedor {
+
+    text-align: center;
+
+    margin-top: 15px;
+
+}
+
+
+
+.video-contenedor iframe {
+
+    max-width: 100%;
+
+    border-radius: 12px;
+
+}
